@@ -37,7 +37,15 @@
 
 #end
 
-<div class="puff-box">
+#set($mainCssClass = "puff-box")
+#if($skin.data == "alt-2")
+	#set($mainCssClass = $mainCssClass + " puff-box-alt2")
+#elseif($skin.data == "alt-3")
+	#set($mainCssClass = $mainCssClass + " puff-box-alt3")
+#end
+
+
+<div class="${mainCssClass}">
 	<div class="puff-box-inner">
 		
     	#if($heading.data != "")
