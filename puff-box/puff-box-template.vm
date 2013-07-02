@@ -7,6 +7,11 @@
 #set ($null = $some-never-used-variable)
 #set ($themeDisplay = $request.get('theme-display'))
 
+#set ($isSignedIn = false)
+#if($request.get("remote-user") != "")
+	#set ($isSignedIn = true)
+#end
+
 #set ($scopePlid = $getterUtil.getLong($themeDisplay.get('plid')))
 
 #set ($scopeLayout = $layoutLocalService.getLayout($scopePlid))
@@ -79,7 +84,12 @@
         			#set($targetForLink = "_BLANK")	
 				#end
 				
-                <a href="${linkURL}" target="${targetForLink}">
+				#set($linkCssClass = "")
+				#if($link.signinPrompt.data == "true" && !$isSignedIn)
+					#set($linkCssClass = "innovationsslussen-signin-prompt")
+				#end
+				
+                <a class="${linkCssClass}" href="${linkURL}" target="${targetForLink}">
         			${link.data}
         		</a>
 			

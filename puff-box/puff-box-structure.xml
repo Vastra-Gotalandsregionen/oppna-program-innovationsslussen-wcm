@@ -57,6 +57,18 @@
 			<dynamic-element name="Normal" type="none" index-type="" repeatable="false"></dynamic-element>
 			<dynamic-element name="New Window (_BLANK)" type="_BLANK" index-type="" repeatable="false"></dynamic-element>
 		</dynamic-element>
+		
+		
+		    <dynamic-element name='signinPrompt' type='boolean' index-type='' repeatable='false'>
+				<meta-data>
+					<entry name="displayAsTooltip"><![CDATA[true]]></entry>
+					<entry name="required"><![CDATA[false]]></entry>
+					<entry name="instructions"><![CDATA[Klicka i checkboxen om anv&auml;ndaren skall promptas om inloggning n&auml;r denne klickar p&aring; l&auml;nken (ingen r&auml;ttighetshantering - sj&auml;lva r&auml;ttighetshanteringen m&arin;ste sedan ligga p&auml; sidan l&auml;nken g&aring;r till)..]]></entry>
+					<entry name="label"><![CDATA[Prompta inloggning]]></entry>
+					<entry name="predefinedValue"><![CDATA[false]]></entry>
+				</meta-data>
+		    </dynamic-element>
+		
 	</dynamic-element>
 	
 	<dynamic-element name="skin" type="list" index-type="" repeatable="false">
