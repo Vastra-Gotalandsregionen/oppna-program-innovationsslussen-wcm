@@ -85,11 +85,13 @@
 				#end
 				
 				#set($linkCssClass = "")
+				#set($promptMsg = "")
 				#if($link.signinPrompt.data == "true" && !$isSignedIn)
 					#set($linkCssClass = "innovationsslussen-signin-prompt")
+					#set($promptMsg = $link.signinPrompt.promptMsg.data)
 				#end
 				
-                <a class="${linkCssClass}" href="${linkURL}" target="${targetForLink}">
+                <a class="${linkCssClass}" href="${linkURL}" target="${targetForLink}" data-promptMsg="${promptMsg}">
         			${link.data}
         		</a>
 			
