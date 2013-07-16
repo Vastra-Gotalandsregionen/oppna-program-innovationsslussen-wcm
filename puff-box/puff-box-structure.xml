@@ -67,6 +67,17 @@
 					<entry name="label"><![CDATA[Prompta inloggning]]></entry>
 					<entry name="predefinedValue"><![CDATA[false]]></entry>
 				</meta-data>
+				
+				<dynamic-element name="promptMsg" type="text" repeatable="false">
+					<meta-data>
+						<entry name="displayAsTooltip"><![CDATA[true]]></entry>
+						<entry name="required"><![CDATA[false]]></entry>
+						<entry name="instructions"><![CDATA[Skriv in den text som visas i inloggningsprompten]]></entry>
+						<entry name="label"><![CDATA[Prompt-meddelande]]></entry>
+						<entry name="predefinedValue"><![CDATA[]]></entry>
+					</meta-data>
+				</dynamic-element>
+								
 		    </dynamic-element>
 		
 	</dynamic-element>
