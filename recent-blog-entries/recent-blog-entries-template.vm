@@ -15,7 +15,7 @@
 #set ($urlPrefix = "")
 #set($isScopeLayoutPrivate = $scopeLayout.isPrivateLayout())
 
-#set ($descriptionMaxSize = 200)
+#set ($descriptionMaxSize = 100)
 
 ## Layout URL prefix
 #set($scopeLayoutSet = $layoutSetLocalService.getLayoutSet($groupIdLong, $isScopeLayoutPrivate))
