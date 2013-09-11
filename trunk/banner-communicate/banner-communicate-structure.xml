@@ -49,7 +49,8 @@
 				<entry name="label"><![CDATA[Video-id hos YouTube]]></entry>
 				<entry name="predefinedValue"><![CDATA[]]></entry>
 			</meta-data>
-		</dynamic-element>		
+		</dynamic-element>
+
 	</dynamic-element>
 	
 </root>
