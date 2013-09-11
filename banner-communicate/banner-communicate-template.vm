@@ -37,7 +37,7 @@
 				<div class="banner-communicate-column banner-communicate-column-2">
 					<div class="banner-communicate-column-content">
 						#foreach($button in $buttons.siblings)
-    						<a class="action-link action-link-button" href="#" data-videoId="${button.videoId.data}">
+    						<a class="action-link action-link-button" href="${button.embedUrl.data}" data-videoId="${button.videoId.data}">
     							<span>${button.data}</span>
     						</a>
 						#end
@@ -57,6 +57,9 @@
 
 			<div class="movie-ctn">
 			</div>
+
+			
+			
 		</div>
 		
 	</div>
