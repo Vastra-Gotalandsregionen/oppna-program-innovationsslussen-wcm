@@ -10,7 +10,9 @@
 					<div class="person-inner clearfix">
 						<div class="person-image-ctn">
 							<div class="person-image">
-								<img src="${person.image.data}" alt="${person.data}" />
+								#if($person.image.data != "")
+									<img src="${person.image.data}" alt="${person.data}" />
+								#end
 							</div>
 						</div>
 						<div class="person-info-ctn">
