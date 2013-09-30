@@ -3,7 +3,7 @@
 	<dynamic-element name='heading' type='text' index-type='' repeatable='false'>
 		<meta-data>
 			<entry name="displayAsTooltip"><![CDATA[true]]></entry>
-			<entry name="required"><![CDATA[true]]></entry>
+			<entry name="required"><![CDATA[false]]></entry>
 			<entry name="instructions"><![CDATA[Skriv in artikelns rubrik.]]></entry>
 			<entry name="label"><![CDATA[Artikelrubrik]]></entry>
 			<entry name="predefinedValue"><![CDATA[]]></entry>
