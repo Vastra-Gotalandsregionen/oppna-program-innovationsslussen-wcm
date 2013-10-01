@@ -2,7 +2,7 @@
 
 	<div class="banner-communicate-view-wrap">
 		<div class="banner-communicate-view banner-communicate-view-start">
-			<div class="banner-communicate-layout banner-communicate-layout">
+			<div class="banner-communicate-layout banner-communicate-layout-1">
 				<div class="banner-communicate-column banner-communicate-column-1">
 					<div class="banner-communicate-column-content">
 						#if($heading.data != "")
@@ -17,7 +17,7 @@
 				</div>
 			</div>
 
-			<div class="banner-communicate-layout banner-communicate-layout">
+			<div class="banner-communicate-layout banner-communicate-layout-2">
 				<div class="banner-communicate-column banner-communicate-column-1">
 					<div class="banner-communicate-column-content">
 						
