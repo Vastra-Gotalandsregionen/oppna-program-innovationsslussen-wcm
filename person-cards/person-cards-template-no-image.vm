@@ -6,17 +6,8 @@
 		#foreach($person in $persons.siblings)
 		
 			<li>
-				<div class="person">
+				<div class="person person-no-image">
 					<div class="person-inner clearfix">
-						<div class="person-image-ctn">
-							<div class="person-image">
-								#if($person.image.data != "")
-									<img src="${person.image.data}" alt="${person.data}" />
-								#else
-								    <span class="image-placeholder"></span>
-								#end
-							</div>
-						</div>
 						<div class="person-info-ctn">
 							<div class="person-info">
 								#if($person.data)
